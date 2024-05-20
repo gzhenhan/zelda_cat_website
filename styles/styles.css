@@ -1,0 +1,252 @@
+﻿html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(117, 84, 0, 0.577), rgb(129, 94, 0));
+  /* background-color: rgba(117, 84, 0, 0.577); */
+  background-repeat: no-repeat; /* only one background image */
+  /* background-size: 100%;  the size of background image is same as the size of browser */
+  background-attachment: scroll; /* Background image scrolls with the content */
+}
+
+div {
+  width: 600px;
+  margin: 0 auto; /* set the box in the center */
+}
+
+h1 {
+  font-size: 20px;
+  color: #171c34;
+  margin-top: 30px;
+  text-align: center;
+}
+
+p {
+  width: 500px;
+  font-size: 15px;
+  line-height: 150%;
+  color: #1e2436;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* navigation menu */
+.nav_menu {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0; /* the distance between nav_menu box and the bottom of body box */
+  background-color: white;
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3);
+  z-index: 99; /* On the top layer */
+}
+
+.nav_list {
+  justify-content: space-around; /* Arrange each element evenly, with the first element placed at the start and the last element at the end */
+}
+
+.nav_list,
+.nav_item {
+  display: flex;
+}
+
+.nav_item {
+  flex-direction: column; /* img at the top, name at the bottom */
+  align-items: center;
+  row-gap: 7px; /* the distance betwe en each img and name */
+  padding: 5px 0;
+  color: #222b45;
+}
+
+.nav_icon {
+  width: 20px;
+}
+
+.nav_menu li {
+  list-style: none;
+}
+
+.nav_menu span {
+  font-size: 12px;
+}
+
+/* logotextBox */
+.logotextBox {
+  margin-top: 70px; /* the distance between border and the top of the logo box */
+  text-align: center; /* Keep the elements in the box in the middle of the box */
+}
+
+.logotextBox img {
+  width: 70%; /* same width with the box */
+}
+
+.logotextBox p {
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+/* swiperBox */
+.swiperBox {
+  width: 100%;
+  max-width: 750px;
+  height: 670px;
+  position: relative;
+}
+
+.swiper {
+  margin-top: 100px;
+  border-radius: 10px; /* rounded box */
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3); /* shadow effect of the box */
+}
+
+.swiper-slide {
+  height: 100%; /* This will make each slide as tall as the swiper container */
+  background-color: #753d0895; /* Ensure the color fills the slide */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 500px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide h1 {
+  color: white;
+}
+
+.swiper-text {
+  color: white;
+}
+
+.swiper-button-prev {
+  color: white;
+  position: absolute;
+  left: 10px;
+}
+
+.swiper-button-next {
+  color: white;
+  position: absolute;
+  right: 10px;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(83, 47, 4);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: 0;
+  cursor: pointer; /* Mouse over button to show hand shape */
+}
+
+/* When the mouse is placed over the button, the background of the button changes colour from bright green to dark green */
+button:hover {
+  background-color: rgb(196, 128, 1);
+}
+
+/* Zelda */
+.Zelda {
+  text-align: center; /* Keep the elements in the box in the middle of the box */
+}
+.Zelda h1 {
+  color: white;
+  margin-top: 40px;
+}
+.Zelda p {
+  color: white;
+}
+
+/* buttonBox */
+.buttonBox {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  flex-direction: column;
+}
+
+.buttonBox img {
+  width: 100%;
+  display: block; /* switch img to block element */
+  border-radius: 10px 10px 0 0; /* Only the top two corners are rounded */
+  object-fit: cover;
+}
+
+/* arrow-textBox */
+.arrow-textBox {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.arrow-textBox li {
+  list-style: none;
+  padding: 15px 0; /* the vertical distance between other list element */
+}
+
+.arrow-textBox svg {
+  width: 15px;
+  color: white;
+}
+
+.arrow-textBox span {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+/* horizontalLine */
+.horizontalLine {
+  border: 0.5px solid white;
+  margin-top: 20px;
+}
+
+/* bottom-textBox */
+.bottom-textBox {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.bottom-textBox li {
+  list-style: none;
+  padding: 15px 0;
+}
+
+.bottom-textBox span {
+  font-size: 15px;
+  color: white;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  bottom: 40px;
+  right: 20px;
+  background-color: rgb(197, 134, 7);
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+#back-to-top:hover {
+  background-color: rgb(197, 134, 7);
+}

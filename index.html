@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zelda's Website</title>
+    <meta name="description" content="Zelda's Website" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Menu -->
+    <div class="nav_menu">
+      <ul class="nav_list">
+        <li class="nav_item">
+          <svg
+            class="nav_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            />
+          </svg>
+          <span>HOME PAGE</span>
+        </li>
+
+        <li class="nav_item">
+          <svg
+            class="nav_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span>PROFILE</span>
+        </li>
+
+        <li class="nav_item">
+          <svg
+            class="nav_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+            />
+          </svg>
+          <span>PHOTOS</span>
+        </li>
+
+        <li class="nav_item">
+          <svg
+            class="nav_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+          <span>MENU</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- LogoText Box -->
+    <div class="logotextBox">
+      <img src="assets/logo.png" alt="" />
+      <p>
+        Zelda is a British longhair cat, born on 26.03.2023 and currently lives
+        in Munich.
+      </p>
+    </div>
+
+    <!-- Swiper Box -->
+    <div class="swiperBox" style="--swiper-pagination-color: #fff">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Swiper Slide -->
+          <div class="swiper-slide">
+            <h1>First blick</h1>
+            <img src="assets/swiperphoto_1.jpg" alt="" />
+            <p class="swiper-text">
+              We picked Zelda up in Hanover by train and she was really sweet
+              and not afraid of people.
+            </p>
+            <button onclick="MsgBox()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                width="15"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>THIS IS A BUTTON</span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <h1>On the train</h1>
+            <img src="assets/swiperphoto_2.jpg" alt="" />
+            <p class="swiper-text">
+              Zelda was also very calm, wasn't afraid of people on the train and
+              was super sweet.
+            </p>
+            <button onclick="MsgBox()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                width="15"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>THIS IS A BUTTON</span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <h1>First week at home</h1>
+            <img src="assets/swiperphoto_3.jpg" alt="" />
+            <p class="swiper-text">
+              Zelda loved to study with me hahaha, she was still small enough to
+              get under the screen.
+            </p>
+            <button onclick="MsgBox()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                width="15"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>THIS IS A BUTTON</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Zelda Box -->
+    <div class="Zelda">
+      <h1>Zelda's current status</h1>
+      <p>
+        Zelda is currently 1 year old, she is very active and healthy and loves
+        to be close to people.
+      </p>
+    </div>
+
+    <!-- Sleeping Box1 -->
+    <div class="buttonBox">
+      <img src="assets/boxphoto_1.jpg" alt="" />
+      <h1>Sleeping</h1>
+      <p>She likes to sleep on me and leave me slobbering all over me.</p>
+      <button onclick="MsgBox()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          width="15"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>THIS IS A BUTTON</span>
+      </button>
+    </div>
+
+    <!-- Playing Box2 -->
+    <div class="buttonBox">
+      <img src="assets/boxphoto_2.jpg" alt="" />
+      <h1>Playing</h1>
+      <p>She breaks down my Lego and plays with the parts that come apart.</p>
+      <button onclick="MsgBox()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          width="15"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>THIS IS A BUTTON</span>
+      </button>
+    </div>
+
+    <!-- Studying Box3 -->
+    <div class="buttonBox">
+      <img src="assets/boxphoto_3.jpg" alt="" />
+      <h1>Studying</h1>
+      <p>She stays with me quietly while I study.</p>
+      <button onclick="MsgBox()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          width="15"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>THIS IS A BUTTON</span>
+      </button>
+    </div>
+
+    <!-- Angry Box4 -->
+    <div class="buttonBox">
+      <img src="assets/boxphoto_4.jpg" alt="" />
+      <h1>Angry</h1>
+      <p>Sometimes she gets angry when she plays with me.</p>
+      <button onclick="MsgBox()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          width="15"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>THIS IS A BUTTON</span>
+      </button>
+    </div>
+
+    <!-- Sleeping again Box5 -->
+    <div class="buttonBox">
+      <img src="assets/boxphoto_5.jpg" alt="" />
+      <h1>Sleeping again</h1>
+      <p>She still loves to sleep the most.</p>
+      <button onclick="MsgBox()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          width="15"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>THIS IS A BUTTON</span>
+      </button>
+    </div>
+
+    <!-- arrow-textBox -->
+    <div class="arrow-textBox">
+      <ul>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>Zelda</span>
+        </li>
+
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>Login</span>
+        </li>
+
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>Owner</span>
+        </li>
+
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>more..</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Long horizontal line -->
+    <div class="horizontalLine"></div>
+
+    <!-- bottom-textBox -->
+    <div class="bottom-textBox">
+      <ul>
+        <li><span>Rechtliche Hinweise</span></li>
+        <li><span>Über uns</span></li>
+        <li><span>AGB</span></li>
+        <li><span>Datenschutz</span></li>
+        <li><span>Impressum</span></li>
+      </ul>
+    </div>
+
+    <!-- back to top button -->
+    <button onclick="topFunction()" id="back-to-top" title="go to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 11l7-7 7 7M5 19l7-7 7 7"
+        />
+      </svg>
+    </button>
+
+    <!-- link with the js file -->
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+
+    <!-- back-to-top button JS-->
+    <script>
+      backtotopButton = document.getElementById("back-to-top");
+      // When the page slides down 200px the "back to top" button appears
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backtotopButton.style.display = "block";
+        } else {
+          backtotopButton.style.display = "none";
+        }
+      }
+      // Click the button to go back to the top
+      function topFunction() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- Click on the button and a message will appear -->
+    <script>
+      function MsgBox() {
+        alert("I wish you have a nice day!");
+      }
+    </script>
+  </body>
+</html>
